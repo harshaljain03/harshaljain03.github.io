@@ -1,0 +1,43 @@
+/* Catppuccin Latte (Light) */
+:root {
+    --theme: #eff1f5;
+    /* Base */
+    --entry: #eff1f5;
+    /* Base */
+    --primary: #4c4f69;
+    /* Text */
+    --secondary: #5c5f77;
+    /* Subtext1 */
+    --tertiary: #9ca0b0;
+    /* Overlay0 */
+    --content: #4c4f69;
+    /* Text */
+    --code-block-bg: #e6e9ef;
+    /* Mantle */
+    --code-bg: #ccd0da;
+    /* Surface0 */
+    --border: #bcc0cc;
+    /* Surface1 */
+}
+
+/* Catppuccin Macchiato (Dark) */
+:root[data-theme="dark"] {
+    --theme: #24273a;
+    /* Base */
+    --entry: #363a4f;
+    /* Surface0 */
+    --primary: #cad3f5;
+    /* Text */
+    --secondary: #b8c0e0;
+    /* Subtext1 */
+    --tertiary: #6e738d;
+    /* Overlay0 */
+    --content: #cad3f5;
+    /* Text */
+    --code-block-bg: #1e2030;
+    /* Mantle */
+    --code-bg: #363a4f;
+    /* Surface0 */
+    --border: #494d64;
+    /* Surface1 */
+}
