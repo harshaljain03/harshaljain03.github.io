@@ -72,8 +72,30 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: test
+    Title: "Welcome 👋"
+    Content: |-
+      Hi there — thanks for stopping by.
+      This website is my personal space on the internet,
+      a place where I document what I’m learning,
+      what I’m building, and the things that capture my curiosity.
+      If you’re interested in tech, security, or personal knowledge-sharing, you’ll probably feel right at home here.
+
+      ***
+
+      ## What You’ll Find Here
+      
+      
+      - **Posts:** My general blog, where I write about ideas, projects, challenges, and anything else worth sharing.
+      - **Writeups:** Detailed CTF writeups and walkthroughs.
+      - **Notes:** Personal notes, thoughts and ideas — an ongoing notebook.
+      - **About:** Who I am, where to find me online, and my resume.
+
+      ***
+
+      ### Why This Site Exists
+
+      I built this site to track progress, share what’s useful, and contribute back as I learn. I hope you find something valuable.
+
 
   socialIcons:
     - name: email
@@ -148,4 +170,4 @@ markup:
 
 caches:
   images:
-    dir: :cacheDir/images
+    dir: ":cacheDir/images"
