@@ -1,0 +1,7 @@
+baseURL: https://harshaljain03.github.io/
+languageCode: en-us
+title: Harshal's Notebook
+
+caches:
+  images:
+    dir: :cacheDir/images
