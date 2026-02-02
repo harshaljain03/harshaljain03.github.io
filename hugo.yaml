@@ -47,15 +47,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/Favicons/favicon.ico"
+    favicon16x16: "/Favicons/favicon-16x16.png"
+    favicon32x32: "/Favicons/favicon-32x32.png"
+    apple_touch_icon: "/Favicons/apple-touch-icon.png"
+    safari_pinned_tab: "/Favicons/apple-touch-icon.png"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: "Harshal's Notebook"
+    icon: /Favicons/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -100,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/harshaljain03/harshaljain03.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -117,18 +117,28 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: Home
+      name: Home
+      url: /
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: Blogs
+      name: Blogs
+      url: /blogs/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: Write-Ups
+      name: Write-Ups
+      url: /write-ups/
       weight: 30
+    - identifier: Thoughts
+      name: Thoughts
+      url: /thoughts/
+      weight: 40
+    - identifier: About
+      name: About
+      url: /about/
+      weight: 50
+
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
